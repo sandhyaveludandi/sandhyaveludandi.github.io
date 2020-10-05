@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+#color1 {
+  background-color: #8789c0; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#color2 {
+  background-color: #45F0DF; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#color3 {
+  background-color: #C2CAE8; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#color4 {
+  background-color: #8380B6; 
 }
 
-.App-link {
-  color: #61dafb;
+#color5 {
+  background-color: #111d4A; 
+  color: white; 
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  margin: 0;
+  background-color: #C2CAE8; 
+}
+
+canvas {
+  display: block;
+}
+
+#particles {
+  position: static; 
+  background-color: #111d4A;  
+  height: 83vh; 
+  width: 100%; 
+  z-index: -1;
+}
+
+#space-header {
+  position: absolute; 
+  width: 65%; 
+  top: 25%; 
+  left: 25%; 
+  margin-left: -110px; 
+  text-align: center; 
+  font-family: 'Archivo Black', sans-serif;
+  z-index: 0; 
+}
+
+#space-header h1 { 
+  font-size: 85px; 
+  color: #fff; 
+}
+
+#space-header p {
+  color: #fff; 
+}
+
+#name { 
+  top: 0;  
+  padding: 0.15em; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px; 
+  font-weight: 900; 
+  color: #111d4A;  
+  letter-spacing: 8px;
+  text-align: center; 
+  background-color: #C2CAE8; 
+  z-index: 1; 
+}
+
+#navbar {
+  top: 2.5em; 
+}
+
+.header {
+  position: sticky; 
+  opacity: 1; 
+}
+
+.tab-header {
+  height: 10vh; 
+}
+
+.tabs,
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+		text-align: center;
+    padding: 0 2em;
+}
+
+.slide h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+}
+
+.tabs-container {
+    border-color:#8380B6; 
+    border-radius: 0.1rem; 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #8789c0;
+    z-index: 10;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color:white;
+    letter-spacing: 0.1rem;
+		transition: all 0.5s ease;
+    font-size: 0.8rem; 
+    cursor: pointer; 
+}
+
+.tab:hover {
+  color:white;
+  background: #ABACD3; 
+  transition: all 0.5s ease;
+}
+
+.active {
+  background-color: #ABACD3;
 }
