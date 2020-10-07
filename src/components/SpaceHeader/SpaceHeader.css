@@ -1,0 +1,31 @@
+canvas {
+    display: block;
+  }
+  
+  #particles {
+    position: static; 
+    background-color: #111d4A;  
+    height: 83vh; 
+    width: 100%; 
+    z-index: -1;
+  }
+  
+  #space-header {
+    position: absolute; 
+    width: 65%; 
+    top: 25%; 
+    left: 25%; 
+    margin-left: -110px; 
+    text-align: center; 
+    font-family: 'Archivo Black', sans-serif;
+    z-index: 0; 
+  }
+  
+  #space-header h1 { 
+    font-size: 85px; 
+    color: #fff; 
+  }
+  
+  #space-header p {
+    color: #fff; 
+  }

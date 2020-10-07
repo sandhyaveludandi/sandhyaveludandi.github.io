@@ -1,0 +1,16 @@
+.tabs,
+.slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+          text-align: center;
+      padding: 0 2em;
+  }
+  
+  .slide h1 {
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
