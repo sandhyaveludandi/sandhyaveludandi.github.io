@@ -14,17 +14,16 @@ export default function Sections() {
             </section>
             <section class="slide" id="tab-projects">
                 <h1>Projects</h1>
-                <h3>something about projects</h3>
+                <h3> Something about Projects</h3>
             </section>
             <section class="slide" id="tab-resume">
                 <div>
-                    <iframe
-                        title="My Daily Marathon Tracker"
-                        src='https://drive.google.com/file/d/1K79hN6_gzvd513rGvrJ_KMX7-Eaf1id5/view?usp=sharing'
-                        width="500"
-                        height="678"
+                    <iframe 
+                        title="Sandhya Veludandi's Resume"
+                        src="https://drive.google.com/file/d/1K79hN6_gzvd513rGvrJ_KMX7-Eaf1id5/preview"
+                        width="800" 
+                        height="1000"
                     >
-                        <p>This browser does not support PDF!</p>
                     </iframe>
                 </div>
             </section>
