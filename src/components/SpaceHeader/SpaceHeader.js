@@ -83,9 +83,9 @@ const particleOptions = {
         <div>
             <Particles id="particles"
                 params={particleOptions}  />
-                <head>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
-                </head>
+            <head>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+            </head>
             <Animated animationIn="fadeIn" animationInDuration={2700} isVisible={true}>
                 <div id="space-header">
                     <h1>HI, UNIVERSE!</h1>
