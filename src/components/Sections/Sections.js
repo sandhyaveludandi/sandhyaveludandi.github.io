@@ -17,15 +17,13 @@ export default function Sections() {
                 <h3> Something about Projects</h3>
             </section>
             <section class="slide" id="tab-resume">
-                <div>
-                    <iframe 
-                        title="Sandhya Veludandi's Resume"
-                        src="https://drive.google.com/file/d/1K79hN6_gzvd513rGvrJ_KMX7-Eaf1id5/preview"
-                        width="800" 
-                        height="1000"
-                    >
-                    </iframe>
-                </div>
+                <embed 
+                    src="https://drive.google.com/file/d/1K79hN6_gzvd513rGvrJ_KMX7-Eaf1id5/preview" 
+                    type="application/pdf" 
+                    width="800" 
+                    height="1000" 
+                    overflow="hidden"
+                />  
             </section>
         </main>
     ); 

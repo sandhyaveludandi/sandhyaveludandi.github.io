@@ -1,0 +1,29 @@
+footer {
+    margin: 0;
+    height:auto; 
+    background-color: #111d4A;
+    color: #EEF0F9; 
+}
+
+.flex-container {
+    margin: 0; 
+    margin-left: 9em; 
+    margin-right: 9em; 
+    padding: 0.15em; 
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none; 
+    color: #EEF0F9;
+}
+
+a:visited {
+    color: #EEF0F9;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color:white;
+}

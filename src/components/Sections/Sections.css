@@ -16,14 +16,17 @@
   }
 
   #tab-resume {
-    height: 185vh;
-    overflow: hidden;
+    height: 205vh;
+  }
+
+  #frame {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
   }
 
   iframe {
     margin: 0; 
     padding: 0; 
-    border: none; 
-    
-    
+    border: 0; 
   }

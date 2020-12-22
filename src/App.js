@@ -3,6 +3,7 @@ import './App.css';
 import SpaceHeader from './components/SpaceHeader/SpaceHeader';
 import NavBar from './components/NavBar/NavBar'; 
 import Sections from './components/Sections/Sections'
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
  
@@ -14,6 +15,7 @@ class App extends Component {
                     <SpaceHeader />
                     <NavBar />
                     <Sections />
+                    <Footer />
                 </div> 
             </div>
         ); 
