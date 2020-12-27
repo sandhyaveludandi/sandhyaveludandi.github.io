@@ -11,7 +11,7 @@ export default function Footer() {
         <div>
             <footer>
                 <h1 class="flex-container">
-                    <a href="https://google.com"><FontAwesomeIcon className="icon" icon={faPhoneSquareAlt} /></a>
+                    <a href="tel:3392241910"><FontAwesomeIcon className="icon" icon={faPhoneSquareAlt} /></a>
                     <a href="mailto:sdvelu18@gmail.com"><FontAwesomeIcon className="icon" icon={faEnvelope} /></a>
                     <a href="https://www.linkedin.com/in/sandhyaveludandi/"><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
                     <a href="https://github.com/sandhyaveludandi"><FontAwesomeIcon className="icon" icon={faGithubSquare} /></a>
